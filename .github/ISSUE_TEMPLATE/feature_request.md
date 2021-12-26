@@ -7,4 +7,5 @@ assignees: ""
 
 ---
 
-https://github.com/JavascriptLearner815/laughing-oxe/discussions/new?category=ideas
+Copy and paste this into your search bar: https://github.com/JavascriptLearner815/laughing-oxe/discussions/new?category=ideas
+Then type your feature request there.
