@@ -1,11 +1,10 @@
 class QuestionBase {
-  constructor(question, correctAnswer, multipleCorrectAnswers, userAnswer, checkButton, afterCheckFunction) {
+  constructor(question, correctAnswer, multipleCorrectAnswers, userAnswer, checkButton) {
     this.question = question
     this.correctAnswer = correctAnswer
     this.multipleCorrectAnswers = Boolean(multipleCorrectAnswers)
     this.userAnswer = userAnswer
     this.checkButton = checkButton
-    this.afterCheckFunction = afterCheckFunction
     this.isCorrect = false
     this.buttonClicked = false
     
@@ -21,8 +20,6 @@ class QuestionBase {
       }
       
       this.buttonClicked = true
-      
-      this.afterCheckFunction(this)
     })
   }
 }
