@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Mast. XZ Messaging
-    url: mailto:mastxzmessaging@gmail.com
+    url: https://mail.google.com/mail/?fs=1&tf=cm&source=mailto&to=mastxzmessaging@gmail.com
     about: Please contact us here.
   - name: Oxez Community
     url: https://github.com/JavascriptLearner815/laughing-oxe/discussions
