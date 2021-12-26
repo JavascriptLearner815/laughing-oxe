@@ -1,9 +1,9 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: ""
-labels: wontfix
-assignees: ""
+about: Suggest an idea for this project (use discussions instead)
+title: Auto-moderated feature request issue.
+labels: invalid, wontfix
+assignees: ''
 
 ---
 
