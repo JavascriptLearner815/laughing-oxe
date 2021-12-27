@@ -1,3 +1,5 @@
+import QuestionBase from "./QuestionBase.js"
+
 class TypeAnswerQuestion extends QuestionBase {
   constructor(question, correctAnswers, afterCheckFunction) {
     const checkButton = document.body.createElement("button")
