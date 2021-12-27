@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <script>
+      import TypeAnswerQuestion from "./question-types/TypeAnswer.js"
+      
+      const myTypeAnswer = new TypeAnswerQuestion("What is 1+1?", ["2", "two"], question => console.log(question.isCorrect))
+    </script>
+  </body>
+</html>
