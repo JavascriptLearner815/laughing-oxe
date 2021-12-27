@@ -8,6 +8,6 @@ class TypeAnswerQuestion extends QuestionBase {
     
     this.userAnswerInput = userAnswerInput
     
-    this.checkButton.addEventListener("click", this => afterCheckFunction)
+    this.checkButton.addEventListener("click", () => afterCheckFunction(this))
   }
 }
