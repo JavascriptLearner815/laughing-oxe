@@ -1,4 +1,4 @@
-class QuestionBase {
+export default class QuestionBase {
   constructor(question, correctAnswer, multipleCorrectAnswers, userAnswer, checkButton, afterCheckFunction) {
     this.question = question
     this.correctAnswer = correctAnswer
