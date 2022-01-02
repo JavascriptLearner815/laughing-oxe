@@ -1,6 +1,6 @@
 import QuestionBase from "./QuestionBase.js"
 
-class TypeAnswerQuestion extends QuestionBase {
+export default class TypeAnswerQuestion extends QuestionBase {
   constructor(question, correctAnswers, afterCheckFunction) {
     const checkButton = document.createElement("button")
     const userAnswerInput = document.createElement("textarea")
